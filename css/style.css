@@ -1,0 +1,258 @@
+h1{
+  font-family: 'Neucha', cursive;
+  font-size: 32px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 60px;
+  border: 3px solid black;
+  padding: 5px;
+  z-index: 2;
+}
+
+#header{
+  border: 1px transparent;
+  width: 1350px;
+  height: 105px;
+  position: relative;
+  background-color: rgba(245, 245, 255, 0.9);
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.desc{
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.follow{
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
+  position: relative;
+  margin-left: 600px;
+  margin-top: 1px;
+}
+
+.container0{
+  position: absolute;
+  top: 5px;
+  left: 900px;
+  z-index: 1;
+}
+
+
+.container0 .ig{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  z-index: 1;
+}
+
+.container0 .fb{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  z-index: 1;
+}
+
+.container0 .tumblr{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  z-index: 1;
+}
+
+
+#map{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+.container{
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 200px;
+}
+
+.container2{
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 400px;
+}
+
+h2{
+  font-family: 'Neucha', cursive;
+  text-align: center;
+}
+
+.container{
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 300px;
+  z-index: 3;
+}
+
+.container2{
+  position: absolute;
+  margin-left: 410px;
+  margin-top: 120px;
+  z-index: 3;
+}
+
+.container3{
+  position: absolute;
+  margin-left: 430px;
+  margin-top: 420px;
+  z-index: 3;
+}
+
+.container4{
+  position: absolute;
+  margin-left: 490px;
+  margin-top: 540px;
+  z-index: 3;
+}
+
+/*#tack{
+  position: absolute;
+  margin-left: 10px;
+ 
+margin-top: 120px;
+  z-index: 3;
+}
+
+.container#tack2{
+  position: relative;
+  margin-left: 215px;
+  margin-top: 25px;
+  z-index: 3;
+}
+
+.container#tack3{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 10px;
+  z-index: 3;
+}
+
+.container#tack4{
+  position: absolute;
+  margin-left: 490px;
+  margin-top: 150px;
+  z-index: 3;
+}*/
+
+.card1 { 
+  width: 400px;
+  height: 80px;
+  margin: 70px;
+  position: relative;
+  margin-left: 750px;
+  margin-top: 150px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card1 figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card1 .front {
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card1 .back {
+  transform: rotateY( 180deg );
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card1.flipped {
+  transform: rotateY( 180deg );
+}
+
+.card2 { 
+  width: 400px;
+  height: 80px;
+  margin: 70px;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 1px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card2 figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card2 .front {
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card2 .back {
+  transform: rotateY( 180deg );
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card2.flipped {
+  transform: rotateY( 180deg );
+}
+
+.card3 { 
+  width: 400px;
+  height: 80px;
+  margin: 70px;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 160px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card3 figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card3 .front {
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card3 .back {
+  transform: rotateY( 180deg );
+  background-color: rgba(194, 224, 255, 0.9);
+}
+
+.card3.flipped {
+  transform: rotateY( 180deg );
+}
+
+#cardp{
+  padding: 5px;
+  font-family: 'Neucha', cursive;
+}
+
+body{
+    position: relative;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/236x/bf/5a/f2/bf5af27c89f41b19c33938be547b7dbc.jpg");
+    margin: 0px;
+}

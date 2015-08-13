@@ -1,0 +1,151 @@
+h1{
+  font-family: 'Neucha', cursive;
+  font-size: 32px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 60px;
+  border: 3px solid black;
+  padding: 5px;
+  z-index: 3;
+}
+
+#header{
+  border: 1px transparent;
+  width: 1350px;
+  height: 105px;
+  position: relative;
+  background-color: rgba(245, 245, 255, 0.9);
+  margin-top: 0px;
+  z-index: 1;
+}
+
+#sudan{
+  position: relative;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+
+.container2{
+  position: absolute;
+  left: 140px;
+  top: 220px;
+}
+
+.container3{
+  position: absolute;
+  left: 140px;
+  top: 420px;
+}
+
+.container4{
+  position: absolute;
+  left: 910px;
+  top: 220px;
+}
+
+.container5{
+  position: absolute;
+  left: 910px;
+  top: 420px;
+}
+
+.box-header1 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:auto;
+	padding:5px;
+	margin:0;
+	background-color:black;
+	color:white;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+.box-content1 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:75px;
+	padding:5px;
+	margin:0;
+	background-color:white;
+	color:black;
+	border:1px solid black;
+  overflow: scroll;
+}
+
+.box-header2 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:auto;
+	padding:5px;
+	margin:0;
+	background-color:black;
+	color:white;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+.box-content2 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:75px;
+	padding:5px;
+	margin:0;
+	background-color:white;
+	color:black;
+	border:1px solid black;
+}
+
+.box-header3 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:auto;
+	padding:5px;
+	margin:0;
+	background-color:black;
+	color:white;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+.box-content3 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:75px;
+	padding:5px;
+	margin:0;
+	background-color:white;
+	color:black;
+	border:1px solid black;
+  overflow: scroll;
+}
+
+.box-header4 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:auto;
+	padding:5px;
+	margin:0;
+	background-color:black;
+	color:white;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+.box-content4 {
+  font-family: 'Neucha', cursive;
+	width:250px;
+	height:75px;
+	padding:5px;
+	margin:0;
+	background-color:white;
+	color:black;
+	border:1px solid black;
+}
+
+body{
+    position: relative;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/236x/bf/5a/f2/bf5af27c89f41b19c33938be547b7dbc.jpg");
+    margin: 0px;
+}
