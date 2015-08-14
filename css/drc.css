@@ -9,9 +9,17 @@ h1{
   z-index: 3;
 }
 
+#button{
+  font-family: 'Neucha', cursive;
+  position: absolute;
+  top: 50px;
+  left: 460px;
+  z-index: 3;
+}
+
 #header{
   border: 1px transparent;
-  width: 1350px;
+  width: 1365px;
   height: 105px;
   position: relative;
   background-color: rgba(245, 245, 255, 0.9);
